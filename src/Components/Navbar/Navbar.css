@@ -1,0 +1,71 @@
+.n-wrapper{
+    /* height: 83.81px; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-bottom: 17px;
+    padding-top: 19px;
+    background-color: #181818;
+    border-bottom: 2px solid #888888;
+}
+
+.n-left{
+    display: flex;
+    /* flex: 1; */
+    /* border: 1px solid red; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.restaurant{
+    margin-right: 15px;
+    /* border: 3px solid rgba(26, 25, 25, 0.801);; */
+    border: 3px solid #525252;
+    
+}
+
+.logo-name{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 123px;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+}
+
+.n-list{
+    /* flex: 10; */
+    
+    margin-right: 75px; 
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    /* margin-right: 75px; */
+    color: #888888;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.n-list>ul>li:hover{
+    color: white;
+    cursor: pointer;
+}

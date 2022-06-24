@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+}
+
+h1{
+  font-weight: 400;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button{
+  width: 202px;
+  height: 65px;
+  background-color: #C19372;
+  padding: 5px 3px 7px 3px;
+  /* background: linear-gradient(#A46E50 100%,  #C19372 100%, #DDDDDD 0.01%, #FFFFFF 30%); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-content{
+  width: 190px;
+  height: 53px;
+  border: 2px solid #DDDDDD;
+  /* border-color: #DDDDDD; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+   margin-right: 10px;
+
 }
