@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 80px;
 }
 .check-menu{
     background-color: #EEEEEE;
@@ -38,3 +39,120 @@
     /* border: 1px solid white; */
     background-color: black;
 }
+
+/* middle section */
+.middle-section{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.quote-div{
+   position: relative;
+   padding-top: 91px;
+   display: flex;
+   align-items: center;
+   /* width: 100vw; */
+   height: fit-content;
+   flex-wrap: wrap;
+   /* border: 1px solid white; */
+}
+
+.quote-section{
+    background-color: #A46E50;
+    width: 100%;
+    
+    height: fit-content;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-image{
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    padding: 40px;
+    /* border: 1px solid white; */
+    top: 0px;
+    bottom: 72px;
+    left:111px;
+    background-color: #181818;
+}
+
+/* menu section in middle section */
+.menu-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 78px;
+    margin-right: 47px;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+}
+.menu-images{
+    margin-top: 99px;
+    flex: 1;
+    
+}
+.menu-image-absolute{
+    position: absolute;
+    width: 402px;
+    height: 370px;
+    top: 0px;
+    left: 220px;
+    padding: 20px;
+    background-color: black;
+}
+
+.menu-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: flex-end;
+    padding-right: 5px;
+    /* border: 1px solid white; */
+    height: fit-content;
+    margin-bottom: 168px;
+    margin-left: 23px;
+}
+
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 19px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-name{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 22.01px;
+    color: white;
+}
+
+.item-description{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-top: 9px;
+}
+
+.item-price{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 22.01px;
+}
+

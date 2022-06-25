@@ -1,0 +1,123 @@
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+}
+
+/* restaurant services css */
+.restaurant-services-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #222222;
+    padding-top: 76px;
+    padding-bottom: 83px;
+}
+
+.restaurant-service{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 33px;
+    margin-left: 33px;
+    max-width: 269px;
+}
+
+.service-type{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 22.01px;
+    letter-spacing: -1px;
+    margin-top: 25px;
+}
+
+.service-description{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: #888888;
+    text-align: center;
+}
+
+.map{
+   background-color: #222222;
+}
+
+.subscribe-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-top: 60px;
+    margin-bottom: 55px;
+    background-color: #222222;
+    padding-bottom: 49px;
+    border-bottom: 2px solid #333333;
+    /* border: 1px solid white; */
+}
+
+.subscribe-left{
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+.subscribe-right{
+    display: flex;
+    flex: 1;
+    /* border: 1px solid white; */
+    /* align-items: flex-start; */
+}
+
+.email-input-field{
+    border: none;
+    background-color: #222222;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    width: 404px;
+    margin-right: 14px;
+    height: 65px;
+    
+}
+
+/* footer bottom details css */
+.footer-bottom-container{
+    display: flex;
+    flex-direction: column;
+}
+.details-container{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 234px;
+    margin-left: 122px;
+    margin-bottom: 46px;
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #CD916D;
+    margin-bottom: 10px;
+}
+
+.detail{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: white;
+    margin-bottom: 10px;
+}
