@@ -95,8 +95,8 @@ const Discover = () => {
                                 color: 'white',
                                 marginBottom: '21px'
                             }}>
-                                If more of us valued food & cheer and song
-                                above hoarded gold, it would be a merrier
+                                If more of us valued food & cheer <br /> and song
+                                above hoarded gold, it <br /> would be a merrier
                                 world.”
                             </p>
                             <img style={{
@@ -146,7 +146,7 @@ const Discover = () => {
                                 fontSize: '40px',
                                 letterSpacing: '-2.86px',
                                 marginBottom: '14px'
-                            }}>Enjoy the day's dish, straight
+                            }}>Enjoy the day's dish, straight <br /> 
                                 from the chef to you.</h1>
                             <img width={53} height={10} src={Object} />
 
