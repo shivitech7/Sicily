@@ -43,6 +43,13 @@
 
 .map{
    background-color: #222222;
+   background-image:url(../../Images/map.png);
+   height: 642px;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   user-select: none;
 }
 
 .subscribe-container{
@@ -62,7 +69,9 @@
 .subscribe-left{
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
 flex: 1;
+padding-left: 20px;
 }
 
 .subscribe-right{
@@ -70,7 +79,7 @@ flex: 1;
     flex: 1;
     flex-wrap: wrap;
     /* border: 1px solid white; */
-    /* align-items: flex-start; */
+    justify-content: flex-end;
 }
 
 .email-input-field{

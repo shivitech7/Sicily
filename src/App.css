@@ -26,7 +26,7 @@ h1{
 .button{
   width: 202px;
   height: 65px;
-  background-color: #C19372;
+  background: linear-gradient(17.84deg, rgba(164, 110, 80, 0.99) 8.26%, rgba(215, 171, 114, 0.99) 91.74%), #C19372;
   padding: 5px 3px 7px 3px;
   /* background: linear-gradient(#A46E50 100%,  #C19372 100%, #DDDDDD 0.01%, #FFFFFF 30%); */
 }

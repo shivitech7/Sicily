@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
             </div >
             <div className="map">
-                <img height={442} width="100%" src={Map} />
+                {/* <img height={442} width="100%" src={Map} /> */}
             </div>
             <div className="subscribe-container">
                 <div className="subscribe-left">
@@ -62,7 +62,7 @@ const Footer = () => {
                     <img width={53} height={10} src={Object} />
                 </div>
                 <div className="subscribe-right">
-                    <input className="email-input-field" value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <input placeholder="TYPE YOUR EMAIL" className="email-input-field" value={email} onChange={(e) => setEmail(e.target.value)} />
                     <button className='button check-menu'>
                         <div style={{
                             border: '2px solid #CFCFCF'

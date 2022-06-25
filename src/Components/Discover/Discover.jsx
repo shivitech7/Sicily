@@ -26,7 +26,7 @@ const Discover = () => {
                         letterSpacing: '-3px',
                         fontFamily: 'Libre Baskerville, serif',
                         marginBottom: '14px'
-                    }}>Pull up a chair. Take a taste. Join us.
+                    }}>Pull up a chair. Take a taste. Join <br /> us.
                         Life is so endlessly delicious"</h1>
                     <img style={{
                         marginBottom: '14px'
@@ -38,8 +38,8 @@ const Discover = () => {
                         fontSize: '16px',
                         marginBottom: '37px'
                     }}>Morbi semper nulla ut metus vestibulum,
-                        at scelerisque leo tristique. Nullam et ex orci.
-                        Proin laoreet pharetra sollicitudin. Donec ultricies pretium elementum.</p>
+                        at scelerisque <br />leo tristique. Nullam et ex orci.
+                        Proin laoreet pharetra <br /> sollicitudin. Donec ultricies pretium elementum.</p>
 
                     <button className='button check-menu'>
                         <div style={{
