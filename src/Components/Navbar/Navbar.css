@@ -47,7 +47,6 @@
 
 .n-list{
     /* flex: 10; */
-    
     margin-right: 75px; 
 }
 
@@ -61,11 +60,17 @@
     justify-content: center;
     font-family: 'Bebas Neue', cursive;
     list-style-type: none;
+    /* border: 1px solid white; */
+    padding-top: 20px;
+    /* font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 15px; */
+}
+.n-list>ul>li{
     font-size: 16px;
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
-
 .n-list>ul>li:hover{
     color: white;
     cursor: pointer;

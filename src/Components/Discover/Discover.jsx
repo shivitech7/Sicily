@@ -1,6 +1,7 @@
 import React from 'react'
 import './Discover.css';
 import ArrowWhite from '../../Images/Arrow_white.png';
+import ArrowBlack from '../../Images/BlackArrow.png';
 // import RedVelvetCake from '../../Images/redVelvetCake.jpg';
 import ImageBlank from '../../Images/ImageBlank.png';
 import Object from '../../Images/Object.png';
@@ -47,7 +48,7 @@ const Discover = () => {
                             <p style={{ color: '#222222' }} className='button-text'>
                                 CHECK THE MENU
                             </p>
-                            <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowWhite} />
+                            <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowBlack} />
                         </div>
                     </button>
                 </div>
@@ -74,7 +75,7 @@ const Discover = () => {
                             marginTop: '92px',
                             marginLeft: '25px',
                             // border: '1px solid white',
-                            marginBottom: '72px',
+                            marginBottom: '123px',
                             padding: '30px',
                         }}>
                             <img style={{ position: 'absolute', top: '0px', left: '0px' }} width={88} height={57} src={QuoteObject} />
@@ -180,7 +181,7 @@ const Discover = () => {
                                     <p style={{ color: '#222222' }} className='button-text'>
                                         CHECK THE MENU
                                     </p>
-                                    <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowWhite} />
+                                    <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowBlack} />
                                 </div>
                             </button>
                         </div>
