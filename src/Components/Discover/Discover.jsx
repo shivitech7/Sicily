@@ -56,10 +56,13 @@ const Discover = () => {
                     <div>
                         <img width={517} height={407} src={ImageBlank} />
                     </div>
-                    <div className="absolute-image">
+                    {/* <div className="absolute-image">
+                        <img width={280} height={242} src={ImageBlank} />
+                    </div> */}
+                </div>
+                <div className="absolute-image">
                         <img width={280} height={242} src={ImageBlank} />
                     </div>
-                </div>
             </div>
 
             <hr style={{ backgroundColor: '#3B3B3B', width: '83px', height: '3px', alignSelf: 'center', border: 'none', marginBottom: '33px' }} />

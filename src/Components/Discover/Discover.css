@@ -14,6 +14,7 @@
     height: 70vh;
     margin-bottom: 69px;
     flex-wrap: wrap;
+    position: relative;
     /* border: 1px solid red; */
 }
 .left-box{
@@ -30,13 +31,15 @@
     flex: 1;
     justify-content: flex-end;
     /* border: 1px solid white; */
-    position: relative;
+    /* position: relative; */
 }
 
 .absolute-image{
     position: absolute;
     top: 300px;
-    left: 190px;
+    /* left: 190px; */
+    /* left: 1099px; */
+    right: 361px;
     padding: 20px;
     /* border: 1px solid white; */
     background-color: black;
