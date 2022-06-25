@@ -133,7 +133,7 @@ const Discover = () => {
                         <img width={464} height={565} src={Image5} />
                     </div>
                     <div className="menu-container">
-                        <div style={{ marginTop: '99px' }}>
+                        <div style={{ marginTop: '99px', paddingRight: '12px' }}>
                             <p style={{
                                 fontFamily: 'Bebas Neue, cursive',
                                 fontWeight: '400',
