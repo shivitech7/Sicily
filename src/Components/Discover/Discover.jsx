@@ -3,7 +3,11 @@ import './Discover.css';
 import ArrowWhite from '../../Images/Arrow_white.png';
 import ArrowBlack from '../../Images/BlackArrow.png';
 // import RedVelvetCake from '../../Images/redVelvetCake.jpg';
-import ImageBlank from '../../Images/ImageBlank.png';
+import Image1 from '../../Images/image1.png';
+import Image2 from '../../Images/image2.png';
+import Image3 from '../../Images/image3.png';
+import Image4 from '../../Images/image4.png';
+import Image5 from '../../Images/image5.png';
 import Object from '../../Images/Object.png';
 import QuoteObject from '../../Images/QuoteObject.png';
 
@@ -54,14 +58,14 @@ const Discover = () => {
                 </div>
                 <div className="right-box">
                     <div>
-                        <img width={517} height={407} src={ImageBlank} />
+                        <img width={517} height={407} src={Image1} />
                     </div>
                     {/* <div className="absolute-image">
                         <img width={280} height={242} src={ImageBlank} />
                     </div> */}
                 </div>
                 <div className="absolute-image">
-                        <img width={280} height={242} src={ImageBlank} />
+                        <img width={280} height={242} src={Image2} />
                     </div>
             </div>
 
@@ -116,17 +120,17 @@ const Discover = () => {
                         </div>
                     </div>
                     <div className="quote-image">
-                        <img style={{ width: '320px', height: '440px' }} src={ImageBlank} />
+                        <img style={{ width: '320px', height: '440px' }} src={Image3} />
                     </div>
                 </div>
 
                 {/* menu section */}
                 <div className="menu-section">
                     <div className="menu-image-absolute">
-                        <img width={362} height={330} src={ImageBlank} />
+                        <img width={362} height={330} src={Image4} />
                     </div>
                     <div className="menu-images">
-                        <img width={464} height={565} src={ImageBlank} />
+                        <img width={464} height={565} src={Image5} />
                     </div>
                     <div className="menu-container">
                         <div style={{ marginTop: '99px' }}>
