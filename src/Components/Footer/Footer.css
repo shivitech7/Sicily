@@ -30,6 +30,7 @@
     font-size: 22.01px;
     letter-spacing: -1px;
     margin-top: 25px;
+    text-align: center;
 }
 
 .service-description{
@@ -95,6 +96,7 @@ padding-left: 20px;
     width: 404px;
     margin-right: 20px;
     height: 65px;
+    margin-bottom: 20px;
     
 }
 

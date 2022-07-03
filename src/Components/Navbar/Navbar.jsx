@@ -2,6 +2,7 @@ import React from 'react'
 import Icon from '../../Images/icon.png';
 import ArrowWhite from '../../Images/Arrow_white.png';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -17,11 +18,11 @@ const Navbar = () => {
             <div className="n-right">
                 <div className='n-list'>
                     <ul>
-                        <li>DISCOVER</li>
-                        <li>OUR MENU</li>
-                        <li>ABOUT US</li>
-                        <li>GALLERY</li>
-                        <li>CONTACT</li>
+                    <li><Link className='nav-link' style={{textDecoration:'none', color:'#888888'}} to='/'>DISCOVER</Link></li>
+                        <li><Link className='nav-link' style={{textDecoration:'none', color:'#888888'}} to='/menu'>OUR MENU</Link></li>
+                        <li><Link className='nav-link' style={{textDecoration:'none', color:'#888888'}} to='/about'> ABOUT US  </Link></li>
+                        <li> <Link className='nav-link' style={{textDecoration:'none', color:'#888888'}} to='/gallery'>GALLERY</Link></li>
+                        <li><Link className='nav-link' style={{textDecoration:'none', color:'#888888'}} to='/contact'>CONTACT</Link></li>
                     </ul>
                 </div>
                 <button className='button'>

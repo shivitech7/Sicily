@@ -58,15 +58,15 @@ const Discover = () => {
                 </div>
                 <div className="right-box">
                     <div>
-                        <img width={517} height={407} src={Image1} />
+                        <img className="image1" width={517} height={407} src={Image1} />
                     </div>
-                    {/* <div className="absolute-image">
-                        <img width={280} height={242} src={ImageBlank} />
-                    </div> */}
+                    <div className="absolute-image">
+                        <img className="image2" width={280} height={242} src={Image2} />
+                    </div>
                 </div>
-                <div className="absolute-image">
-                        <img width={280} height={242} src={Image2} />
-                    </div>
+                {/* <div className="absolute-image">
+                    <img width={280} height={242} src={Image2} />
+                </div> */}
             </div>
 
             <hr style={{ backgroundColor: '#3B3B3B', width: '83px', height: '3px', alignSelf: 'center', border: 'none', marginBottom: '33px' }} />
@@ -75,12 +75,17 @@ const Discover = () => {
 
                 {/* quote section */}
                 <div className="quote-div">
+                    <div className="quote-image">
+                        <img className="image3" width={320} height={440} src={Image3} />
+                    </div>
                     <div className='quote-section'>
                         <div style={{
-                            width: '55%',
+                            // width: '55%',
+                            // marginLeft:'40%',
                             position: 'relative',
                             marginTop: '92px',
                             marginLeft: '25px',
+                            marginRight: '53px',
                             // border: '1px solid white',
                             marginBottom: '123px',
                             padding: '30px',
@@ -119,18 +124,18 @@ const Discover = () => {
                             }}>CHEF & FOUNDER OF SICILY</p>
                         </div>
                     </div>
-                    <div className="quote-image">
-                        <img style={{ width: '320px', height: '440px' }} src={Image3} />
-                    </div>
+                    {/* <div className="quote-image">
+                        <img className="image3" width={320} height={440} src={Image3} />
+                    </div> */}
                 </div>
 
                 {/* menu section */}
                 <div className="menu-section">
                     <div className="menu-image-absolute">
-                        <img width={362} height={330} src={Image4} />
+                        <img className="image4" width={362} height={330} src={Image4} />
                     </div>
                     <div className="menu-images">
-                        <img width={464} height={565} src={Image5} />
+                        <img className="image5" width={464} height={565} src={Image5} />
                     </div>
                     <div className="menu-container">
                         <div style={{ marginTop: '99px', paddingRight: '12px' }}>
@@ -146,7 +151,7 @@ const Discover = () => {
                                 fontSize: '40px',
                                 letterSpacing: '-2.86px',
                                 marginBottom: '14px'
-                            }}>Enjoy the day's dish, straight <br /> 
+                            }}>Enjoy the day's dish, straight <br />
                                 from the chef to you.</h1>
                             <img width={53} height={10} src={Object} />
 

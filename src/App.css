@@ -6,6 +6,8 @@
 
 body{
   background-color: black;
+  overflow-x: hidden;
+  width: 100%;
 }
 .icon{
   width: 38px;
@@ -28,14 +30,12 @@ h1{
   height: 65px;
   background: linear-gradient(17.84deg, rgba(164, 110, 80, 0.99) 8.26%, rgba(215, 171, 114, 0.99) 91.74%), #C19372;
   padding: 5px 3px 7px 3px;
-  /* background: linear-gradient(#A46E50 100%,  #C19372 100%, #DDDDDD 0.01%, #FFFFFF 30%); */
 }
 
 .button-content{
   width: 190px;
   height: 53px;
   border: 2px solid #DDDDDD;
-  /* border-color: #DDDDDD; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,4 +49,187 @@ h1{
   font-family: 'Bebas Neue', cursive;
    margin-right: 10px;
 
+}
+
+@media only screen and (max-width: 1080px) {
+  .n-wrapper{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+.logo-name{
+  font-size: 26px;
+}
+.left-box{
+  margin-bottom: 20px;
+  margin-right: 150px !important;
+}
+.top-section{
+  height: 90vh !important;
+  /* margin-bottom: 50px; */
+}
+.image1{
+  width: 417px;
+  height: 307;
+}
+.image2{
+  width: 180px;
+  height: 142px;
+}
+.absolute-image{
+  position: absolute;
+  right: 261px;
+}
+.quote-section{
+  padding-left: 520px;
+}
+.menu-image-absolute{
+  width: 302px !important;
+  height: 270px !important;
+  left: 100px;
+}
+.menu-container{
+  margin-left: 50px !important;
+}
+.image4{
+  width: 262px !important;
+  height: 230px !important;
+}
+.image5{
+  width: 364px;
+  height: 465px;
+}
+
+.subscribe{
+  margin-right: 20px !important;
+}
+}
+
+@media only screen and (max-width: 700px) {
+
+.main-wrapper{
+    padding-top: 10px !important;
+    
+}
+.left-box{
+  margin-bottom: 20px;
+}
+.top-section{
+  margin-bottom: 280px !important;
+  margin-left: 0px !important;
+}
+.image1{
+  width: 247px !important;
+  height: 100 !important;
+}
+.image2{
+  width: 120px !important;
+  height: 122px !important;
+}
+.image3{
+  width: 220px !important;
+  height: 360px !important;
+}
+.quote-image{
+  width: 300px !important;
+  height: 440px !important;
+  left: 80px !important;
+  bottom: 40px;
+}
+.absolute-image{
+  position: absolute;
+  right: 150px !important;
+  /* left: 6px; */
+  width: 160px;
+  height: 162px;
+  /* width={280} height={242} */
+}
+.quote-section{
+  padding-left: 400px;
+}
+.menu-image-absolute{
+  width: 202px !important;
+  height: 170px !important;
+  left: 140px !important;
+}
+.image4{
+  width: 162px !important;
+  height: 130px !important;
+}
+.image5{
+  width: 264px !important;
+  height: 365px !important;
+}
+.menu-container{
+  margin-left: 80px !important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .main-wrapper{
+    padding-top: 10px !important;
+    
+}
+.n-right{
+  margin-left: 13px !important;
+  
+}
+.left-box{
+  margin-top: 30px !important;
+}
+.top-section{
+  margin-bottom: 300px !important;
+  margin-left: 0px !important;
+}
+
+ .image1{
+  width: 290px !important;
+  height: 350px !important;
+}
+.image2{
+  width: 100px !important;
+  height: 92px !important;
+}
+.absolute-image{
+  position: absolute;
+  right: 220px !important;
+  width: 140px;
+  height: 132px;
+}
+.image3{
+  width: 120px !important;
+  height: 260px !important;
+}
+.quote-image{
+  width: 200px !important;
+  height: 340px !important;
+  left: 15px !important;
+  bottom: 30px;
+}
+
+.quote-section{
+  padding-left: 190px;
+}
+.menu-image-absolute{
+  width: 202px !important;
+  height: 170px !important;
+  left: 140px !important;
+}
+.image4{
+  width: 162px !important;
+  height: 130px !important;
+}
+.image5{
+  width: 264px !important;
+  height: 365px !important;
+}
+.menu-container{
+  margin-left: 80px !important;
+} 
+
+.footer-name{
+  text-align: left !important;
+  margin-left: 200px;
+}
 }

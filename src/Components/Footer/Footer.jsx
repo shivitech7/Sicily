@@ -63,7 +63,7 @@ const Footer = () => {
                 </div>
                 <div className="subscribe-right">
                     <input placeholder="TYPE YOUR EMAIL" className="email-input-field" value={email} onChange={(e) => setEmail(e.target.value)} />
-                    <button className='button check-menu'>
+                    <button className='button check-menu subscribe'>
                         <div style={{
                             border: '2px solid #CFCFCF'
                         }} className='button-content'>
@@ -108,15 +108,20 @@ const Footer = () => {
                     </div>
                 </div>
                 <div style={{
-                    textAlign: 'center',
-                    marginBottom: '42px'
-                }}>
+                    display:'flex',
+                    flexWrap:'wrap',
+                    alignItems:'center',
+                    marginBottom: '42px',
+                    // border:'1px solid white'
+                }} >
                     <h1 style={{
                         fontFamily: 'Libre Baskerville, serif',
                         fontWeight: '400',
                         fontSize: '48px',
-                        letterSpacing: '-2px'
-                    }}>Sicily</h1>
+                        letterSpacing: '-2px',
+                        textAlign:'center',
+                        width:'100%'
+                    }} className="footer-name">Sicily</h1>
                 </div>
             </div>
         </div>

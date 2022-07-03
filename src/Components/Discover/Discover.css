@@ -1,7 +1,7 @@
 .main-wrapper{
     display: flex;
     flex-direction: column;
-    padding-top: 71px;
+    /* padding-top: 71px; */
     background-color: #181818;
     /* border: 1px solid white; */
 }
@@ -9,13 +9,16 @@
 .top-section{
     display: flex;
     justify-content: space-between;
-    margin-left: 67px;
+    /* margin-left: 67px; */
+    padding-left: 67px;
     background-color: #181818;
     height: 70vh;
-    margin-bottom: 69px;
+    margin-bottom: 99px;
+    align-items: center;
     flex-wrap: wrap;
-    position: relative;
+    /* position: relative; */
     /* border: 1px solid red; */
+    width: 100%;
 }
 .left-box{
     display: flex;
@@ -23,6 +26,7 @@
     flex: 1;
     margin-top: 80px;
 }
+
 .check-menu{
     background: #EEEEEE;
 }
@@ -31,7 +35,7 @@
     flex: 1;
     justify-content: flex-end;
     /* border: 1px solid white; */
-    /* position: relative; */
+    position: relative;
 }
 
 .absolute-image{
@@ -42,7 +46,7 @@
     right: 361px;
     padding: 20px;
     /* border: 1px solid white; */
-    background-color: black;
+    background-color: #181818;
 }
 
 /* middle section */
@@ -50,6 +54,7 @@
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+   width: 100%;
    /* border: 1px solid white; */
 }
 .quote-div{
@@ -68,6 +73,7 @@
     width: 100%;
     height: fit-content;
     display: flex;
+    /* border: 1px solid white; */
     /* flex-direction: row; */
     justify-content: flex-end;
     align-items: center;
@@ -99,16 +105,16 @@
 .menu-images{
     margin-top: 99px;
     flex: 1;
-    
+    /* border: 1px solid white; */
 }
 .menu-image-absolute{
     position: absolute;
     width: 402px;
-    height: 370px;
+    height:370px;
     top: 0px;
     left: 220px;
     padding: 20px;
-    background-color: black;
+    background-color: #181818;
 }
 
 .menu-container{
@@ -121,7 +127,8 @@
     /* border: 1px solid white; */
     height: fit-content;
     margin-bottom: 168px;
-    margin-left: 23px;
+    /* margin-left: 123px; */
+    padding-left: 123px;
 }
 
 .menu-item{
