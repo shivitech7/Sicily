@@ -1,0 +1,42 @@
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 71px; */
+    background-color: #181818;
+    /* border: 1px solid white; */
+}
+
+.chefs-class-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.chef-class-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.chef-images-wrapper{
+    padding-top: 69px;
+    margin-left: 69px;
+    margin-right: 69px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+    /* justify-content: space-around; */
+}
+
+.chef-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 41px;
+    margin-right: 38px;
+}
