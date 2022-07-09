@@ -1,0 +1,76 @@
+.bookTable-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    /* border: 1px solid white; */
+    flex-wrap: wrap;
+}
+
+.bookTable-header-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding-top: 101px;
+    padding-bottom: 88px;
+    background-color: #222222;
+    flex-wrap: wrap;
+}
+
+.bookTable-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 67px;
+    padding-bottom: 78px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 18px;
+}
+
+.form-input-section{
+    width: 533px;
+    height: 73px;
+    background-color: #222222;
+    margin-bottom: 28px;
+    margin-right: 36px;
+}
+
+.input{
+    width: 533px;
+    height: 73px;
+    background-color: #222222;
+    outline: none;
+    border: none;
+    color: #888888;
+    font-family: 'Bebas Neue';
+    font-size: 18.01px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+
+.input-dropdown{
+    width: 533px;
+    /* height: 100%; */
+    /* background-color: #222222; */
+    outline: none;
+    border: none;
+    color: #888888;
+    font-family: 'Bebas Neue';
+    font-size: 18.01px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* padding-left: 30px; */
+}
+
+.react-select__value-container{
+    background-color: #222222;
+}

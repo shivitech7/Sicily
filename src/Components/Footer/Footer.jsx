@@ -3,7 +3,6 @@ import './Footer.css';
 import HighQuality from '../../Images/HighQuality.png';
 import QuickService from '../../Images/QuickService.png';
 import RoyalTaste from '../../Images/RoyalTaste.png';
-import Map from '../../Images/map.png';
 import ArrowBlack from '../../Images/BlackArrow.png';
 import Object from '../../Images/Object.png';
 import Twitter from '../../Images/twitter.png';

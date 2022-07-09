@@ -14,7 +14,7 @@ const Menu = () => {
                     // border:'1px solid white'
                 }} className="white-colored-content">After a good dinner one can forgive
                     anybody, even one's own relations.</h1>
-                <img width={53} height={10} src={Object} />
+                <img width={53} height={10} src={Object} alt="object" />
             </div>
             <div className="middle-section-menu">
 

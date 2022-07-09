@@ -11,6 +11,7 @@ import Menu from './Components/Menu/Menu';
 import About from './Components/About/About';
 import Gallery from './Components/Gallery/Gallery';
 import Contact from './Components/Contact/Contact';
+import BookATable from './Components/BookTable/BookATable';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/book-a-table" element={<BookATable />} />
         </Routes>
         <Footer />
       </BrowserRouter>
