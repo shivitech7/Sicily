@@ -6,7 +6,7 @@
 
 body{
   background-color: black;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   width: 100%;
 }
 .icon{
@@ -116,7 +116,7 @@ h1{
   margin-bottom: 20px;
 }
 .top-section{
-  margin-bottom: 280px !important;
+  margin-bottom: 250px !important;
   margin-left: 0px !important;
 }
 .image1{
@@ -164,6 +164,24 @@ h1{
 .menu-container{
   margin-left: 80px !important;
 }
+
+/* book Table styling */
+.bookTable-tagLine{
+  font-size: 32px !important;
+  word-wrap: break-word !important;
+}
+
+.bookTable-form-wrapper{
+  padding-left: 39px !important;
+  width: 100%;
+}
+.form-input-section{
+  width: 433px !important;
+}
+
+.input{
+  width: 433px !important;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -179,7 +197,7 @@ h1{
   margin-top: 30px !important;
 }
 .top-section{
-  margin-bottom: 300px !important;
+  margin-bottom: 280px !important;
   margin-left: 0px !important;
 }
 
@@ -231,5 +249,36 @@ h1{
 .footer-name{
   text-align: left !important;
   margin-left: 200px;
+}
+
+/* book Table styling */
+.bookTable-tagLine{
+  font-size: 25px !important;
+  word-wrap: break-word !important;
+}
+
+.bookTable-form-wrapper{
+  padding-left: 29px !important;
+  padding-right: 29px !important;
+  width: 100%;
+}
+
+.input{
+  width: 333px !important;
+}
+
+.form-wrapper{
+  justify-content: center !important;
+}
+
+.form-input-section{
+  width: 333px !important;
+   width: 100%;
+   margin-right: 0px !important;
+}
+
+/* about page styling */
+.about-chef-title{
+  font-size: 30px !important;
 }
 }

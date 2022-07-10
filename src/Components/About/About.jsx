@@ -5,6 +5,7 @@ import Image2 from '../../Images/image2.png';
 import './About.css';
 import Object from '../../Images/Object.png';
 import BlankImage from '../../Images/ImageBlank.png';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -41,7 +42,7 @@ const About = () => {
             orci. Proin laoreet pharetra sollicitudin.
             Donec ultricies pretium elementum. </p>
 
-          <button className='button check-menu'>
+          <Link to="/menu"> <button className='button check-menu'>
             <div style={{
               border: '2px solid #CFCFCF'
             }} className='button-content'>
@@ -51,6 +52,7 @@ const About = () => {
               <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowBlack} />
             </div>
           </button>
+          </Link>
         </div>
         <div className="right-box">
           <div>
@@ -86,7 +88,7 @@ const About = () => {
             width: '100%',
             textAlign: 'center',
             // paddingRight:'30px'
-          }} className="white-colored-content">Meet the talent behind the taste</h1>
+          }} className="white-colored-content about-chef-title">Meet the talent behind the taste</h1>
           <img style={{
             marginBottom: '14px',
             marginTop: '16px'

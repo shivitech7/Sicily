@@ -76,3 +76,7 @@
     color: white;
     cursor: pointer;
 }
+
+.nav-link:hover{
+    color: white !important;
+}

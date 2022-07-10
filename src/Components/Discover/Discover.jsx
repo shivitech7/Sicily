@@ -10,6 +10,7 @@ import Image4 from '../../Images/image4.png';
 import Image5 from '../../Images/image5.png';
 import Object from '../../Images/Object.png';
 import QuoteObject from '../../Images/QuoteObject.png';
+import { Link } from 'react-router-dom';
 
 
 const Discover = () => {
@@ -45,7 +46,7 @@ const Discover = () => {
                         at scelerisque <br />leo tristique. Nullam et ex orci.
                         Proin laoreet pharetra <br /> sollicitudin. Donec ultricies pretium elementum.</p>
 
-                    <button className='button check-menu'>
+                    <Link to="/menu"> <button className='button check-menu'>
                         <div style={{
                             border: '2px solid #CFCFCF'
                         }} className='button-content'>
@@ -55,6 +56,7 @@ const Discover = () => {
                             <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowBlack} />
                         </div>
                     </button>
+                    </Link>
                 </div>
                 <div className="right-box">
                     <div>
@@ -186,7 +188,8 @@ const Discover = () => {
                                     </div>
                                 </div>
                             </div>
-                            <button className='button check-menu'>
+
+                            <Link to="/menu"> <button className='button check-menu'>
                                 <div style={{
                                     border: '2px solid #CFCFCF'
                                 }} className='button-content'>
@@ -196,6 +199,7 @@ const Discover = () => {
                                     <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowBlack} />
                                 </div>
                             </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
