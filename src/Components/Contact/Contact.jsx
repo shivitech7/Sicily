@@ -73,12 +73,17 @@ const Contact = () => {
                         marginBottom: '28px',
                         height: '160px'
                     }} className="input-section">
-                        <input style={{
-                            paddingTop: '15px',
-                            height: '160px'
-                        }} onChange={(e) => {
-                            setMessage(e.target.value)
-                        }} value={message} className="input-field" placeholder="MESSAGE" />
+                        <textarea
+                            style={{
+                                height: '160px',
+                                overflow: 'hidden'
+                            }}
+                            onChange={(e) => {
+                                setMessage(e.target.value)
+                            }}
+                            value={message}
+                            className="input-field"
+                            placeholder="MESSAGE" />
                     </div>
 
                     <div style={{
@@ -110,7 +115,7 @@ const Contact = () => {
                                     <h1 style={{
                                         textAlign: 'end',
                                         fontSize: '20px',
-                                        color: 'red',
+                                        color: 'orange',
                                         marginTop: '10px'
                                     }}>Please fill all the fields!</h1>
                                 )
